@@ -68,7 +68,7 @@ img {
 .activities{
 
    background: #F1FAEE ;
-   height: 320px;
+   height: 330px;
   
 }
 
@@ -121,6 +121,7 @@ img {
 
 .guide-cont{
     display: flex;
+    height: fit-content;
 }
 
 
