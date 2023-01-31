@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+             /* Hero */ 
+
+
+.Hero{
+
+    background-image: url("./img/Cover.jpg");
+    background-size: cover;
+    color: #1F2823;
+    height: 350px;
+    padding: 0px 0 0 0 ;
+}
+
+.Hero:hover{
+    background-image: url("./img/Screenshot\ 2023-01-30\ at\ 16.28.19.png");
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.hero-text{
+    padding-top: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.hero-title, .hero-a{
+    display: inline-block;
+    background-color: #1F2823;
+    color: white;
+    border-radius: 5px;
+    font-size: 20PX;
+    padding: 2px 10px 2px 10px;
+   
+}
+
+.hero-a{
+    text-decoration: none;
+}
+span:hover{
+    text-decoration: underline;
+}
+
+.hero-title:hover{
+    border: orange solid 1px;
+}
+img {
+    width: 100px;
+}
+
+         /* Activities */
+
+
+.activities{
+
+   background: #F1FAEE ;
+   height: 320px;
+  
+}
+
+.act-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+
+.act-title{
+    padding-top: 15px;
+    text-decoration: overline;
+}
+
+.act-title:hover{
+    text-decoration: overline solid 1px orange;
+}
+
+.img-size {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+}
+
+.img-size:hover{
+    
+    border: 6px solid orange;
+    
+}
+
+
+
+.heading-pic{
+    margin: 12px 0 15px 0 ;
+    text-decoration: underline black;
+}
+
+.heading-pic:hover{
+    text-decoration: underline 1px orange;
+
+}
+
+            /* Guide */
+
+
+
+.guide-cont{
+    display: flex;
+}
+
+
+.guide1{
+    background-image: url(./img/Screenshot\ 2023-01-30\ at\ 15.01.08.png);
+    /* background-image: url("./img/mateo-serrano-jw7aJVq2w8U-unsplash\ \(1\).jpg"); */
+    /* background-image: url(./img/dayan-quinteros-Ko-g1ijT9NM-unsplash.jpg); */
+    background-size: cover;
+    width: 50%;
+    height: 410px;
+}
+
+.guide1:hover{
+    background-image: url("./img/Screenshot\ 2023-01-30\ at\ 15.54.57.png");
+}
+    
+
+                /* Card */
+
+.card{
+    
+    background-size: cover;
+    padding: 20px 0px 0 0 ;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0px ;
+    text-align: center;
+    color: #1F2823;
+    border-radius: 15px;
+    color: white;
+    /* text-shadow: 1px 1px 1px black; */
+    
+}
+
+.avatar-title{
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: overline;
+    
+}
+
+.avatar-title:hover{
+    text-decoration: overline 1px solid orange;
+}
+
+.avatar{
+    border: 5px solid white;;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.avatar:hover{
+    border: 5px solid orange;
+
+}
+
+.act-a{
+    text-decoration: none;
+    color: #1F2823;
+}
+
+.act-a:hover{
+    text-decoration: underline 2px solid orange;
+}
+
+.info-text{
+    display: inline-block;
+    margin: 150px 0 0 0;
+    border-radius: 0px;
+    padding: 2px 10px 2px 10px;
+    color: white;
+   
+}
+
+
+
+.card-a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-a:hover{
+    color: orange;
+}
+
+
+                /* part-cont */
+
+
+.part-cont{
+    background-image: url(./img/mateo-serrano-jw7aJVq2w8U-unsplash\ \(1\).jpg);
+    background-size: cover;
+    width: 50%;
+    
+}
+
+.part-cont:hover{
+    background-image: url(./img/Screenshot\ 2023-01-30\ at\ 15.23.59.png);
+
+    /* background-image: url(./img/caterina-sanders-Fu6cRM5L6p8-unsplash.jpg); */
+
+}
