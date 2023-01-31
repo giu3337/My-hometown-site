@@ -130,7 +130,7 @@ img {
     /* background-image: url(./img/dayan-quinteros-Ko-g1ijT9NM-unsplash.jpg); */
     background-size: cover;
     width: 50%;
-    height: 300px;
+    height: 380px;
 }
 
 .guide1:hover{
@@ -192,7 +192,7 @@ img {
 
 .info-text{
     display: inline-block;
-    margin: 150px 0 0 0;
+    margin: 130px 0 0 0;
     border-radius: 0px;
     padding: 2px 10px 2px 10px;
     color: white;
